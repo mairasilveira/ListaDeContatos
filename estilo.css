@@ -69,10 +69,9 @@ body {
     display: flex;
     gap: 16px;
     align-items: center;
-    opacity: 20%;
-    display: none;
+    opacity: 0;
 }
 
 .list-item:hover .list-item__action{
-    display: flex;
+    opacity: 20%
 }
