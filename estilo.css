@@ -70,4 +70,9 @@ body {
     gap: 16px;
     align-items: center;
     opacity: 20%;
+    display: none;
+}
+
+.list-item:hover .list-item__action{
+    display: flex;
 }
