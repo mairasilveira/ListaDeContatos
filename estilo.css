@@ -60,3 +60,14 @@ body {
     margin-top: 5px;
     color: #aaa;
 }
+
+.list-item:hover{
+    background-color: #e8e8e8;
+}
+
+.list-item__action{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    opacity: 20%;
+}
